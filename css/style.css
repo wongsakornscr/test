@@ -1,0 +1,266 @@
+﻿@charset "utf-8";
+/*------------------------------------------ชุดแรก------------------------------------------*/
+.taphead { /*พื้นหลังและขอบเขตแถบด้านบนสุด ->index*/
+	padding: 0px; /*ระยะห่างภายใน*/
+	float: left; /*จัด DIV ชิดซ้าย*/
+	height: auto;
+	width: 100%;
+	background-image: linear-gradient(to top,#000,#666); /*ไล่สีจากบนลงล่าง*/
+	position: fixed; /*--|                   */
+	top: 0px;        /*  |-> ล็อกตำแหง DIV */
+	left: 0px;       /*--|                   */		
+}
+.korpmenu { /*ขอบเขตของเมนู ->index*/
+	float: left;
+	height: auto;
+	width: auto;
+	margin: 0px 0px 0px 200px;
+	padding: 1px 0px 0px 0px;
+}
+.logo{ /*ขอบเขตของโลโก้ ->index*/
+	font-style: italic; /*ทำตัวเอียง*/
+	font-size: 30px; /*ขนาดตัวอักษร*/
+	color: #fff; /*สีตัวอักษร*/
+	height: auto;
+	width: auto;
+	position: fixed;
+	top: 2px;
+	left: 10px;
+	margin: 0px; /*ระยะห่างภายนอก*/
+	padding: 0.5px 10px;
+	border-radius: 8px;
+	/*border: 2px solid #aaa;*/
+	background-color: #444;
+	font-weight: bold;
+}
+.krobuser {
+    width: auto;
+	/*border: 1px solid #FF0;*/
+	
+	height: 40px;
+	position: fixed;
+	top: 0px;
+	right: 3px;
+	padding: 0px;
+}
+.user { /*ขอบเขตของชื่อผู้ใช้ ->index*/
+	/*border: 1px solid #FF0;*/
+	height: 40px;
+	padding: 0px;
+	font-size: 17px;
+	font-style: italic;
+	font-weight: bold;	
+}
+.user a { /*ขอบเขตของชื่อผู้ใช้ ควบคุมส่วนที่เป็นลิงค์ ->index*/
+	text-decoration: none; /*ทำให้เป็นข้อความธรรมดา*/
+	color: #aaa;
+	display: block;
+	height: 100%;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+		
+}
+.user a:hover { /*ขอบเขตของชื่อผู้ใช้ ควบคุมส่วนที่เป็นลิงค์ และควบคุมเวลาชี้เมาส์ ->index*/
+	color: #fff;
+	background-color:#000;
+	border-radius:  5px 5px 0px 0px;
+}
+.user_sub { 
+	display: none;
+
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	background-color: #444;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	font-weight: bold;			
+}
+.user_sub a { 
+	text-decoration: none; 
+	color: #aaa;
+	display: block;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	width: 150px;	
+}
+.krobuser:hover .user_sub {
+	display:block;		
+}
+.krobuser:hover .user a{
+	color: #fff;
+	background-color:#000;
+	border-radius:  5px 5px 0px 0px;		
+}
+.user_sub a:hover {
+	color: #fff;
+	background-color:#000;	
+}
+/*----------------------------------*จบ* ชุดแรก-----------------------------------------**/
+.main {
+	height: auto;
+	width: 1000px;
+	text-align: left;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;	
+	 /*border: 1px solid #000; */
+	
+	padding-left: 0px;	
+}
+.serach {
+	float: left;
+	height: auto;
+	width: 990px;
+	/*	border: 1px solid #CCC;*/
+	border-radius: 5px;
+	background-image: linear-gradient(to BOTTOM,#FFA448,#FFD1A4);
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;	
+}
+.ipbser {
+	width: 30%;
+	border-radius: 4px;
+	border: 1px solid #CCC;
+	font-size: 14px;
+	padding: 5px;
+	float: right;
+	margin-top: 1px;
+	margin-right: 10px;
+	}
+	.bottomser {
+	text-align: center;
+	height: auto;
+	width: auto;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	/*box-shadow: 0px 0px 1px 1px;*/
+	background-image: linear-gradient(to bottom,#009700,#00CE00);
+	float: right;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-left: 10px;	
+}
+.bottomser:hover {
+	box-shadow: 0px 0px 1px 1px ;
+	background-image: linear-gradient(to top,#009700,#00CE00);
+	
+}	
+.boxpk {
+	float: left;
+	height: auto;
+	width: 190px;
+	border-radius: 15px;
+	margin: 10px;
+	background-color: #FFD2FF;
+	padding-bottom: 20px;
+	text-align: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #666;
+}
+.boxpk:hover{
+	box-shadow: 1px 1px 5px 0px;
+	background-color: #FFB2FF;
+	color: #333;
+	/*font-weight: bold;*/
+}
+.bottom {
+	text-align: center;
+	height: auto;
+	width: 100%;
+	color: #FFF;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0px 0px 1px 1px;
+	background-image: linear-gradient(to bottom,#FF0000,#A00000);
+}
+.bottom:hover {
+	box-shadow: 0px 0px 3px 3px ;
+	background-image: linear-gradient(to top,#FF0000,#A00000);
+	
+}
+.ipb {
+	width: 280px;
+	border-radius: 4px;
+	border: 1px solid #CCC;
+	font-size: 16px;
+	padding: 8px;
+	margin-bottom: 10px;
+	}
+.boxregister {
+	margin: auto;
+	height: auto;
+	width: 320px;
+	box-shadow: 1px 1px 2px 0px;
+	border-radius: 5px;
+	/*background-image: linear-gradient(to bottom,#FFB9DC,#FDE);*/
+	background-image: linear-gradient(to bottom,#FFA448,#FFB164);
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+.bottomsub {
+	text-align: center;
+	height: auto;
+	width: 50%;
+	color: #FFF;
+	border-radius: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 22px;
+	font-weight: bold;
+	/*box-shadow: 0px 0px 1px 1px;*/
+	background-image: linear-gradient(to bottom,#009700,#00CE00);
+	
+	margin-top: 20px;
+}
+.bottomsub:hover {
+	box-shadow: 0px 0px 3px 3px ;
+	background-image: linear-gradient(to top,#009700,#00CE00);
+	
+}
+.headnew {
+	font-size: 23px;
+	font-style: italic;
+	font-weight: bold;
+	color: #800003;
+	float: left;
+	height: auto;
+	width: auto;
+
+	padding: 0px;
+}
+.dropuser {
+	float: right;
+	height: auto;
+	width: auto;
+	border: 1px solid #FF0;
+}
+.picuser{
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	background-image: url(../img/user.jpg);
+	/*background-color: #fff;*/
+	padding: 0px;
+	margin-top: auto;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: 15px;
+}

@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test CSS</title>
+
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="taphead">
+	<div class="logo">LOGO</div>
+	<div class="korpmenu">
+		<ul id="MenuBar1" class="MenuBarHorizontal">
+   			<li><a href="#">MENU1</a></li>
+   			<li><a href="#" class="MenuBarItemSubmenu">MENU2</a>
+     				<ul>
+       					<li><a href="#">MENU2-1</a></li>
+       					<li><a href="#">MENU2-2</a></li>
+						<li><a href="#">MENU2-3</a></li>
+       					<li><a href="#">MENU2-4</a></li>
+						<li><a href="#">MENU2-5</a></li>
+       					<li><a href="#">MENU2-6</a></li>
+     				</ul>
+   			</li>
+   			<li><a href="#">MENU3</a></li>
+   			<li><a href="#">MENU4</a></li> 
+		</ul>
+	</div>
+	<div class="krobuser">
+		<div class="user">
+			<a href="#">
+				<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  					<tr>
+    						<td valign="middle">User</td>
+    						<td valign="middle"><div class="picuser"></div></td>
+  					</tr>
+				</table>
+			</a>
+		</div>
+  		<div class="user_sub">
+    			<a href="#">Test1</a>
+    			<a href="#">Test2</a>
+    			<a href="#">Test3</a>
+  		</div>
+	</div>
+</div>
+
+<script type="text/javascript"> var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif",imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+
+</body>
+</html>
+
+
